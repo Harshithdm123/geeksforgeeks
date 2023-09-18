@@ -38,11 +38,11 @@ class Solution {
             int mid = left + (right - left) / 2;
 
             if (arr[mid] == k) {
-                return mid; // Found the target element; return its index.
+                return mid; 
             } else if (arr[mid] < k) {
-                left = mid + 1; // Target is in the right half of the array.
+                left = mid + 1; 
             } else {
-                right = mid - 1; // Target is in the left half of the array.
+                right = mid - 1; 
             }
         }
 
