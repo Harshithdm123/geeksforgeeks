@@ -42,7 +42,9 @@ class GfG
       for(int i=0;i<n;i++){
           res=res*arr[i]%mod;
           
+           
       }
+      
         return res;
         
         
