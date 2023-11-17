@@ -39,6 +39,8 @@ class GfG
     {
         //yout code here
       long res=1;
+      
+      
       for(int i=0;i<n;i++){
           res=res*arr[i]%mod;
           
