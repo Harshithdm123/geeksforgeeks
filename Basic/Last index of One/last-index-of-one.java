@@ -38,7 +38,6 @@ class Solution {
            if(ch=='1')
             return i;
             
-           
        }
        return -1;
        
