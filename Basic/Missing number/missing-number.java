@@ -46,8 +46,6 @@ class Compute {
     return (N * (N + 1) / 2) - sum;
         
         
-        
-        
          // Your code goes here
     }
 }
