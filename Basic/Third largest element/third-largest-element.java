@@ -36,5 +36,6 @@ class Solution
         }
         Arrays.sort(a);
         return a[n-3];
+        
     }
 }
