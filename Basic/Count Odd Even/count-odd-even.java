@@ -35,19 +35,16 @@ class Solution
 {
     public void countOddEven(int[] arr, int n)
     {
-        
-      int countOdd = 0 ;
-        int countEven =  0 ;
-       for(int i : arr){
-           if(i%2 == 0 ){
-               countEven++;
-           }else{
-               countOdd++;
-           }
-       }
-       System.out.println(countOdd+" "+countEven);  
-        
-        
-        // Code here
+        int oddNoCount = 0;
+        int evenNoCount = 0;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]%2==0){
+                evenNoCount++;
+            }
+            else {
+                oddNoCount++;
+            }
+        }
+        System.out.println(oddNoCount+" "+evenNoCount);
     }
 }
