@@ -40,13 +40,8 @@ class Solution{
         
         
         
-        
          Arrays.sort(arr);
-        return arr[k-1]; 
-        
-        
-        
-        
+        return arr[k-1];
         //Your code here
     } 
 }
