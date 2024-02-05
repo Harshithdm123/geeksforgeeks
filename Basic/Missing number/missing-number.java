@@ -38,15 +38,12 @@ class GFG {
 class Compute {
     
     public static int missingNumber(int A[], int N)
-    {
-        
-        int sum = 0;
-    for(int i = 0; i < N - 1; i++)
-        sum += A[i];
-        
-    return (N * (N + 1) / 2) - sum;
-        
-        
-         // Your code goes here
+    {  int total_sum = N * (N +1)/2;
+         int sum =0;
+         for(int i=0;i<A.length ;i++) {
+             sum = sum+A[i];
+         }
+         
+         return (total_sum - sum);
     }
 }
