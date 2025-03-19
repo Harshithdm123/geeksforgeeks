@@ -24,21 +24,15 @@ class Geeks {
 class Solution {
     int missingNumber(int arr[]) {
         // code here
-         int n=arr.length+1;
-        Arrays.sort(arr);
-        for(int i=1;i<=n;i++)
-        {
-            if(i!=arr[i-1])
-            {
-                return i;
-            }
-            
-            if(i==n-1)
-            {
-                return i+1; 
-            }
+            int sum = 0;
+        for(int i =0; i <= arr.length-1; i++){
+            sum += arr[i];
         }
-        return -1;
+        int natSum = 0;
+        for(int i = 0; i <= arr.length+1; i++){
+            natSum += i;
+        }
+        return natSum - sum; 
         
     }
 }
